@@ -1,4 +1,4 @@
-:set number
+set number
 inoremap jj <esc>
 syntax on
 set showmode
@@ -10,7 +10,7 @@ filetype indent on
 set autoindent
 "
 " 按下 Tab 键时，Vim 显示的空格数。
-set tabstop=2 
+set tabstop=2
 
 " 在文本上按下>>（增加一级缩进）、<<（取消一级缩进）或者==（取消全部缩进）时，每一级的字符数。
 set shiftwidth=2
@@ -50,3 +50,14 @@ set listchars=tab:»■,trail:■
 set list
 set wildmenu
 set wildmode=longest:list,full
+
+" murphy desert
+colorscheme murphy
+
+set cuc
+set cul
+
+set guifont=Monospace\ 20
+
+set guioptions+=b
+set nowrap
